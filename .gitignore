@@ -1,0 +1,7 @@
+# Keep secrets out of git — everything else is tracked for deploy.
+.env
+.env.backup
+.env.production
+.env.*.local
+auth.json
+/storage/*.key
